@@ -1,0 +1,17 @@
+select *
+from film
+where mod(film_id,4) = 0
+order by film_id
+
+4	"Affair Prejudice"	"A Fanciful Documentary of a Frisbee And a Lumberjack who must Chase a Monkey in A Shark Tank"	2006	1	5	"2.99"
+8	"Airport Pollock"	"A Epic Tale of a Moose And a Girl who must Confront a Monkey in Ancient India"	2006	1	6	"4.99"
+12	"Alaska Phantom"	"A Fanciful Saga of a Hunter And a Pastry Chef who must Vanquish a Boy in Australia"	2006	1	6	"0.99"
+16	"Alley Evolution"	"A Fast-Paced Drama of a Robot And a Composer who must Battle a Astronaut in New Orleans"	2006	1	6	"2.99"
+20	"Amelie Hellfighters"	"A Boring Drama of a Woman And a Squirrel who must Conquer a Student in A Baloon"	2006	1	4	"4.99"
+24	"Analyze Hoosiers"	"A Thoughtful Display of a Explorer And a Pastry Chef who must Overcome a Feminist in The Sahara Desert"	2006	1	6	"2.99"
+28	"Anthem Luke"	"A Touching Panorama of a Waitress And a Woman who must Outrace a Dog in An Abandoned Amusement Park"	2006	1	5	"4.99"
+32	"Apocalypse Flamingos"	"A Astounding Story of a Dog And a Squirrel who must Defeat a Woman in An Abandoned Amusement Park"	2006	1	6	"4.99"
+36	"Argonauts Town"	"A Emotional Epistle of a Forensic Psychologist And a Butler who must Challenge a Waitress in An Abandoned Mine Shaft"	2006	1	7	"0.99"
+40	"Army Flintstones"	"A Boring Saga of a Database Administrator And a Womanizer who must Battle a Waitress in Nigeria"	2006	1	4	"0.99"
+44	"Attacks Hate"	"A Fast-Paced Panorama of a Technical Writer And a Mad Scientist who must Find a Feminist in An Abandoned Mine Shaft"	2006	1	5	"4.99"
+48	"Backlash Undefeated"	"A Stunning Character Study of a Mad Scientist And a Mad Cow who must Kill a Car in A Monastery"	2006	1	3	"4.99"
