@@ -1,0 +1,16 @@
+select *
+from film
+where mod(film_id,2) = 0
+order by film_id
+
+2	"Ace Goldfinger"	"A Astounding Epistle of a Database Administrator And a Explorer who must Find a Car in Ancient China"	2006	1	3
+4	"Affair Prejudice"	"A Fanciful Documentary of a Frisbee And a Lumberjack who must Chase a Monkey in A Shark Tank"	2006	1	5
+6	"Agent Truman"	"A Intrepid Panorama of a Robot And a Boy who must Escape a Sumo Wrestler in Ancient China"	2006	1	3
+8	"Airport Pollock"	"A Epic Tale of a Moose And a Girl who must Confront a Monkey in Ancient India"	2006	1	6
+10	"Aladdin Calendar"	"A Action-Packed Tale of a Man And a Lumberjack who must Reach a Feminist in Ancient China"	2006	1	6
+12	"Alaska Phantom"	"A Fanciful Saga of a Hunter And a Pastry Chef who must Vanquish a Boy in Australia"	2006	1	6
+14	"Alice Fantasia"	"A Emotional Drama of a A Shark And a Database Administrator who must Vanquish a Pioneer in Soviet Georgia"	2006	1	6
+16	"Alley Evolution"	"A Fast-Paced Drama of a Robot And a Composer who must Battle a Astronaut in New Orleans"	2006	1	6
+18	"Alter Victory"	"A Thoughtful Drama of a Composer And a Feminist who must Meet a Secret Agent in The Canadian Rockies"	2006	1	6
+20	"Amelie Hellfighters"	"A Boring Drama of a Woman And a Squirrel who must Conquer a Student in A Baloon"	2006	1	4
+22	"Amistad Midsummer"	"A Emotional Character Study of a Dentist And a Crocodile who must Meet a Sumo Wrestler in California"	2006	1	6
