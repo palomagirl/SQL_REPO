@@ -1,3 +1,11 @@
+--odd
+
+select *
+from film
+where mod(film_id,2) = 1
+order by film_id
+
+--even
 select *
 from film
 where mod(film_id,2) = 0
