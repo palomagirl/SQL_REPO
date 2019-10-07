@@ -1,0 +1,10 @@
+select A.id
+from A
+left join B
+on A.id =B.id
+where b.id is null;
+
+
+select * from  a
+EXCEPT
+select * from b
