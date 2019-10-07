@@ -1,0 +1,3 @@
+select extract(quarter from create_date) from customer;
+
+select date_part('quarter',  create_date) from customer;
