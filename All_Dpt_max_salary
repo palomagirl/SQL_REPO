@@ -1,0 +1,7 @@
+--Get all dept names even if no employee
+
+select d.name, nvl(max(e.salary),0)
+from department d
+left join employee e
+on d.id = e.deptid
+group by d.name
