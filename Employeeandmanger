@@ -1,0 +1,3 @@
+select distinct e.Ename as Employee, m.mgr as reports_to
+from EMPLOYEES e
+inner join Employees m on e.mgr = m.mgr;
