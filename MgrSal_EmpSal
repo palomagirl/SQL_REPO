@@ -1,0 +1,23 @@
+select e.name mname, e.salary msal, m.name ename, m.salary esal
+from employee e, employee m
+where e.id = m.managerid
+
++----+-------+--------+-----------+
+| Id | Name  | Salary | ManagerId |
++----+-------+--------+-----------+
+| 1  | Joe   | 70000  | 3         |
+| 2  | Henry | 80000  | 4         |
+| 3  | Sam   | 60000  | NULL      |
+| 4  | Max   | 90000  | NULL      |
++----+-------+--------+-----------+
+
+"mname", "msal", "ename", "esal"
+["Sam", 60000, "Joe", 70000]
+["Max", 90000, "Henry", 80000]
+
+select m.name ename, m.salary,e.salary
+from employee e, employee m
+where e.id = m.managerid
+having m.salary>e.salary
+
+"Joe", 70000,60000
